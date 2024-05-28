@@ -36,4 +36,5 @@ document.addEventListener('keydown', function(event) {
     if (keyHistory.length > 10) {
         keyHistoryElement.textContent = keyHistory.slice(-10).join(', ');
     }
+    console.log('Key History:', keyHistory.join(', '));
 });
